@@ -1,0 +1,106 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.flexible-content{
+    display: flex;
+}
+.first-div, .second-div, .dream-div1, .dream-div2{
+    width: 50%;
+    padding: 5%;
+}
+.second-div img, .second-image{
+    width: 90%;
+}
+.orange-color{
+    color: orangered;
+}
+.first-h1{
+    letter-spacing: 5px;
+}
+h1{
+    font-size: 50px;
+}
+.first-div a, .btn{
+    text-decoration: none;
+    padding: 12px 38px;
+    background-image: linear-gradient(tomato, orangered);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.first-div p, .dream p, .experience p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+/* Dream Big section*/
+.dream h2, .experience h2{
+    font-size: 35px;
+}
+.dream h3, .experience h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.dream h2{
+    letter-spacing: 4px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/*Experience section*/
+.experience{
+    margin-top: 150px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.experience h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.experience-div1,
+.experience-div2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+.experience-div1:hover{
+    box-shadow: 5px 5px 20px skyblue;
+}
+.experience-div2:hover{
+    box-shadow: 5px 5px 20px skyblue;
+}
+.experience p{
+    padding-bottom: 30px;
+}
+.experience-div1{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.experience-div2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan, skyblue);
+    border-image-slice: 1;
+}
+/*Footer Section*/
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+}
